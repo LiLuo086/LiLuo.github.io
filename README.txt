@@ -1,4 +1,4 @@
-This is a portfolio website used to show all my work on data analysis.
+This is a portfolio website used to show all my work on data analysis. The template is from https://html5up.net/.
 
 ----------------------------
 Original README:
