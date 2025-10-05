@@ -4609,4 +4609,67 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
   padding-left: 15px;
 }
 
+
+/* From Li Luo, footer redesign: light-gray background with black text and darker icons */
+#footer {
+  background-color: #f4f4f4;
+  /* light gray background */
+  color: #000;
+  /* black text */
+  padding: 3em 0;
+  /* keep spacing consistent */
+}
+
+/* Make all footer text elements black */
+#footer h3,
+#footer p,
+#footer a,
+#footer li,
+#footer span {
+  color: #000 !important;
+}
+
+/* Style the circular icons to match */
+#footer .icons.alt li a {
+  border-color: #000 !important;
+  color: #000 !important;
+}
+
+#footer .icons.alt li a:hover {
+  color: #fff !important;
+}
+
+#footer {
+  border-top: 1px solid #ddd;
+}
+
+
+.navicon {
+  color: #18bfef !important
+}
+
+#navicon.navicon:hover {
+  color: #ffffff !important
+}
+
+#navicon.navicon:hover::before {
+  color: #ffffff !important
+}
+
+#footer>section.split.contact>section {
+  padding: 2rem 2rem 2rem 1rem !important;
+}
+
+#footer {
+  padding: 0 !important;
+}
+
+#main {
+  padding-bottom: 2rem !important;
+}
+
+section.posts {
+  padding-bottom: 2rem !important;
+}
+
 /*# sourceMappingURL=main.css.map */
